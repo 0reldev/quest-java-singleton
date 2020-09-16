@@ -3,7 +3,6 @@ public class Transactions {
     public static void transactions() {
 
         Singleton singleton = Singleton.getInstance();
-
         singleton.withdraw(300);
         singleton.deposit(12);
         singleton.deposit(54);

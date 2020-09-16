@@ -4,9 +4,7 @@ public class Main {
 
         Singleton singleton = Singleton.getInstance();
         singleton.openAccount(9001);
-
         Transactions.transactions();
-
         Transactions.balance();
     }
 }
